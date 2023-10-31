@@ -1,0 +1,35 @@
+.services-heading {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  font-size: 4rem;
+}
+
+.service-section {
+  padding-bottom: 4rem;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-img {
+  width: 14rem;
+  height: auto;
+}
+
+.card-text {
+  font-size: 4rem;
+  font-weight: 700;
+}

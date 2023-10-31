@@ -1,0 +1,15 @@
+.card {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.light {
+  background-color: rgb(var(--light-blue));
+}
+
+.dark {
+  background-color: rgb(var(--gray));
+}

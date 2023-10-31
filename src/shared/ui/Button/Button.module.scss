@@ -1,0 +1,22 @@
+.button {
+  padding: 1rem 1.5rem;
+  border-radius: 100px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.dark {
+  color: rgb(var(--white));
+  background-color: rgb(var(--dark-blue));
+  &:hover {
+    background-color: rgba(var(--dark-blue), 0.8);
+  }
+}
+.light {
+  color: rgb(var(--dark-blue));
+  background-color: rgb(var(--light-blue));
+  &:hover {
+    background-color: rgba(var(--dark-blue), 0.8);
+  }
+}

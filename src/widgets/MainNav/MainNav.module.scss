@@ -1,0 +1,19 @@
+.header {
+  background-color: rgba(var(--gray), 0.7);
+  position: relative;
+  z-index: 1;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-weight: 700;
+}
