@@ -1,0 +1,18 @@
+.clean-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(var(--light-blue));
+}
+
+.back {
+  align-self: start;
+}

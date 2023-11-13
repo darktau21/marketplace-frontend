@@ -1,0 +1,22 @@
+.heading {
+  color: rgb(var(--white));
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 6rem 8rem;
+}
+
+.submit {
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.register {
+  text-align: center;
+}

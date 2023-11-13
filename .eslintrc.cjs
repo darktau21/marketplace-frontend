@@ -8,6 +8,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:perfectionist/recommended-natural",
+    "plugin:@tanstack/eslint-plugin-query/recommended",
     "@feature-sliced",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
@@ -25,5 +26,13 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "perfectionist/sort-imports": "off",
+    "@typescript-eslint/no-misused-promises": [
+      2,
+      {
+        checksVoidReturn: {
+          attributes: false,
+        },
+      },
+    ],
   },
 };

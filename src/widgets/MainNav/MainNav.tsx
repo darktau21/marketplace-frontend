@@ -1,10 +1,13 @@
- import { Routes } from "@/shared/config";
+import { useUser } from "@/entities/session";
+import { Routes } from "@/shared/config";
 import { Button } from "@/shared/ui/Button/Button";
 import { Logo } from "@/shared/ui/Logo";
 import { NavTo } from "@/shared/ui/NavTo";
 import styles from "./MainNav.module.scss";
 
 export const MainNav = () => {
+  const { data: user } = useUser();
+
   return (
     <header className={styles.header}>
       <div className="container">
@@ -24,7 +27,11 @@ export const MainNav = () => {
             </li>
           </ul>
           <div>
-            <Button navTo={Routes.ACCOUNT}>Личный кабинет</Button>
+            {user ? (
+              <Button navTo={Routes.ACCOUNT}>Личный кабинет</Button>
+            ) : (
+              <Button navTo={Routes.LOGIN}>Вход</Button>
+            )}
           </div>
         </nav>
       </div>

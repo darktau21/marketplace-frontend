@@ -1,0 +1,17 @@
+.filters {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  column-gap: 2rem;
+  row-gap: 4rem;
+}
+
+.content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.category-filter {
+  grid-column: span 2;
+}

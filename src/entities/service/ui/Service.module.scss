@@ -1,0 +1,38 @@
+.service {
+  display: grid;
+  grid-template-columns: 25% 1fr 10%;
+  gap: 2.5rem;
+}
+
+.issuer {
+  font-size: 2.4rem;
+  font-weight: 400;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.name {
+  font-size: 2.8rem;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  font-weight: 500;
+}
+
+.date {
+  font-size: 2.4rem;
+  font-weight: normal;
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+
+.description {
+  font-size: 2rem;
+  font-weight: 300;
+  grid-row: 3/4;
+  grid-column: span 3;
+}
+
+.price {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}

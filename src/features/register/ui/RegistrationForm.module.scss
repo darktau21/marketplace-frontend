@@ -1,0 +1,27 @@
+.heading {
+  color: rgb(var(--white));
+  font-weight: 500;
+  padding-bottom: 2rem;
+  grid-column: span 2;
+}
+
+.form {
+  display: grid;
+  gap: 4rem;
+  padding: 6rem 8rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.submit {
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.register {
+  text-align: center;
+}
+
+.wide-input {
+  grid-column: span 2;
+}

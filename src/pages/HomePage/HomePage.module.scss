@@ -33,3 +33,8 @@
   font-size: 4rem;
   font-weight: 700;
 }
+
+.alert-wrapper {
+  grid-column: 2/3;
+  place-self: center;
+}

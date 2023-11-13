@@ -1,6 +1,8 @@
 export enum Routes {
   ACCOUNT = "/account",
   CHAT = "/chat",
+  EDIT_ROLE = `${Routes.ACCOUNT}/role`,
+  EDIT_USER = `${Routes.ACCOUNT}/edit`,
   HOME = "/",
   LOGIN = "/login",
   POLICY = "/policy",

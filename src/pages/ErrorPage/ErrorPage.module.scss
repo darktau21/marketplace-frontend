@@ -1,0 +1,19 @@
+.error-page {
+  background-color: rgb(var(--dark-blue));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  gap: 2rem;
+  color: rgb(var(--white));
+}
+
+.code {
+  font-size: 10rem;
+  font-weight: 700;
+}
+
+.message {
+  font-size: 4rem;
+}

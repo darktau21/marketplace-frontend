@@ -1,21 +1,16 @@
+import cn from "classnames";
 import { PropsWithChildren } from "react";
 import styles from "./Card.module.scss";
 
 type Props = PropsWithChildren<{
+  className?: string;
   variant?: "dark" | "light";
 }>;
 
-export const Card = ({ children, variant = "light" }: Props) => {
-  let color;
-
-  switch (variant) {
-    case "dark":
-      color = styles.dark;
-      break;
-    case "light":
-      color = styles.light;
-      break;
-  }
-
-  return <div className={`${styles.card} ${color}`}>{children}</div>;
+export const Card = ({ children, className, variant = "light" }: Props) => {
+  return (
+    <div className={cn(className, styles.card, styles[variant])}>
+      {children}
+    </div>
+  );
 };
