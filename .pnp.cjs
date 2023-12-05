@@ -54,7 +54,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:6.17.0"],\
           ["sass", "npm:1.69.5"],\
           ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
-          ["vite", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.0"],\
+          ["vite", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.1"],\
           ["zod", "npm:3.22.4"]\
         ],\
         "linkType": "SOFT"\
@@ -1131,7 +1131,7 @@ const RAW_RUNTIME_STATE =
           ["@vitejs/plugin-react-swc", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:3.4.0"],\
           ["@swc/core", "virtual:9c51f6f865a5d25de2439d56bec7626f0453f68be6a09ee1bf68c719336311d9f69409d41c1566bce89ad6d0c795d080410a6fdbd9a4c492fda8be31c08acd37#npm:1.3.95"],\
           ["@types/vite", null],\
-          ["vite", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.0"]\
+          ["vite", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.1"]\
         ],\
         "packagePeers": [\
           "@types/vite",\
@@ -3448,7 +3448,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:6.17.0"],\
           ["sass", "npm:1.69.5"],\
           ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
-          ["vite", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.0"],\
+          ["vite", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.1"],\
           ["zod", "npm:3.22.4"]\
         ],\
         "linkType": "SOFT"\
@@ -4899,17 +4899,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["vite", [\
-      ["npm:4.5.0", {\
-        "packageLocation": "../../.yarn/berry/cache/vite-npm-4.5.0-6fb40946d7-10c0.zip/node_modules/vite/",\
+      ["npm:4.5.1", {\
+        "packageLocation": "../../.yarn/berry/cache/vite-npm-4.5.1-567bbcf9ff-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "npm:4.5.0"]\
+          ["vite", "npm:4.5.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.0", {\
-        "packageLocation": "./.yarn/__virtual__/vite-virtual-5253dadd8a/3/.yarn/berry/cache/vite-npm-4.5.0-6fb40946d7-10c0.zip/node_modules/vite/",\
+      ["virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.1", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-c2832edb84/3/.yarn/berry/cache/vite-npm-4.5.1-567bbcf9ff-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.0"],\
+          ["vite", "virtual:75db9b3ad7e1cfc4a40756ba9fd6534deb00cae32f361fe625cd37f5fc0095cf7ad9b496771a1cc436ba94a0bb12cab755af80260220bd600fa710f8bbb2c726#npm:4.5.1"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
           ["@types/node", null],\
