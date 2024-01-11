@@ -1404,7 +1404,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/axios-npm-1.6.0-b0f6015a96-10c0.zip/node_modules/axios/",\
         "packageDependencies": [\
           ["axios", "npm:1.6.0"],\
-          ["follow-redirects", "virtual:b0f6015a963175f08000990853b55c1a6d1a3722c7c1d5e0885425211ae7ee63bf6b96b7e997f23d1bc9573bb78556c981010ca3a2873c90fc1ce293c6dd5667#npm:1.15.3"],\
+          ["follow-redirects", "virtual:b0f6015a963175f08000990853b55c1a6d1a3722c7c1d5e0885425211ae7ee63bf6b96b7e997f23d1bc9573bb78556c981010ca3a2873c90fc1ce293c6dd5667#npm:1.15.4"],\
           ["form-data", "npm:4.0.0"],\
           ["proxy-from-env", "npm:1.1.0"]\
         ],\
@@ -2446,17 +2446,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["follow-redirects", [\
-      ["npm:1.15.3", {\
-        "packageLocation": "../../.yarn/berry/cache/follow-redirects-npm-1.15.3-ca69c47b72-10c0.zip/node_modules/follow-redirects/",\
+      ["npm:1.15.4", {\
+        "packageLocation": "../../.yarn/berry/cache/follow-redirects-npm-1.15.4-3384d6a415-10c0.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "npm:1.15.3"]\
+          ["follow-redirects", "npm:1.15.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b0f6015a963175f08000990853b55c1a6d1a3722c7c1d5e0885425211ae7ee63bf6b96b7e997f23d1bc9573bb78556c981010ca3a2873c90fc1ce293c6dd5667#npm:1.15.3", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-48f349e0aa/3/.yarn/berry/cache/follow-redirects-npm-1.15.3-ca69c47b72-10c0.zip/node_modules/follow-redirects/",\
+      ["virtual:b0f6015a963175f08000990853b55c1a6d1a3722c7c1d5e0885425211ae7ee63bf6b96b7e997f23d1bc9573bb78556c981010ca3a2873c90fc1ce293c6dd5667#npm:1.15.4", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-803fc26979/3/.yarn/berry/cache/follow-redirects-npm-1.15.4-3384d6a415-10c0.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "virtual:b0f6015a963175f08000990853b55c1a6d1a3722c7c1d5e0885425211ae7ee63bf6b96b7e997f23d1bc9573bb78556c981010ca3a2873c90fc1ce293c6dd5667#npm:1.15.3"],\
+          ["follow-redirects", "virtual:b0f6015a963175f08000990853b55c1a6d1a3722c7c1d5e0885425211ae7ee63bf6b96b7e997f23d1bc9573bb78556c981010ca3a2873c90fc1ce293c6dd5667#npm:1.15.4"],\
           ["@types/debug", null],\
           ["debug", null]\
         ],\
